@@ -13,12 +13,13 @@ class Anagram
     # iterate through array, make each word an array, then sort
     # then compare word array to array array 
     # add results to new array 
+    
     result_array = [] # this is array of matches
     w = @word.split("")
     array.each do |match_word|
+      if w.sort == match_word.split("").sort 
+        result_array << match_word
     end
-    
-    
     result_array
     
   end 
