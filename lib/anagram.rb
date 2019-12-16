@@ -14,7 +14,7 @@ class Anagram
     # then compare word array to array array 
     # add results to new array 
     result_array = [] # this is array of matches
-    w = @word.split(", ")
+    w = @word.split("")
     
     
     
