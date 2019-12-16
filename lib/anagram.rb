@@ -15,7 +15,8 @@ class Anagram
     # add results to new array 
     result_array = [] # this is array of matches
     w = @word.split("")
-    
+    array.each do |match_word|
+    end
     
     
     result_array
