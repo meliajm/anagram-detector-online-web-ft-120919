@@ -19,6 +19,7 @@ class Anagram
     array.each do |match_word|
       if w.sort == match_word.split("").sort 
         result_array << match_word
+      end
     end
     result_array
     
